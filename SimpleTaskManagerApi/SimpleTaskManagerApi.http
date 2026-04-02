@@ -1,0 +1,6 @@
+@SimpleTaskManagerApi_HostAddress = http://localhost:5022
+
+GET {{SimpleTaskManagerApi_HostAddress}}/api/test
+Accept: application/json
+
+###
