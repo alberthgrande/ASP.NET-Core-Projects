@@ -1,7 +1,3 @@
-Perfect! Let’s set up **PostgreSQL in Docker** and connect it to your ASP.NET Core app step by step. I’ll make it clear and ready to follow.
-
----
-
 ## **1️⃣ Run PostgreSQL in Docker**
 
 Open a terminal and run:

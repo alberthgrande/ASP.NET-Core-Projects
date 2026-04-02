@@ -3,8 +3,11 @@ using CrudApiDemo.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// builder.Services.AddDbContext<AppDbContext>(opt =>
+//     opt.UseInMemoryDatabase("ProductDb"));
+
 builder.Services.AddDbContext<AppDbContext>(opt =>
-    opt.UseInMemoryDatabase("ProductDb"));
+    opt.UseNpgsql("Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=root"));
 
 builder.Services.AddControllers();
 // Add services to the container.
